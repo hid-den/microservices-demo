@@ -30,7 +30,6 @@ steps:
   args: 
   - '-c'
   - > 
-          #gcloud container clusters get-credentials --zone=$_ZONE $_CLUSTER;
     gcloud container clusters get-credentials microservices-demo-cluster --zone=us-central1-a;
     skaffold run -f=skaffold.yaml --default-repo=gcr.io/$PROJECT_ID;
 
