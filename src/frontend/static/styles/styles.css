@@ -362,13 +362,13 @@ main.home {
 
 .h-jumbotron {
   border-radius: 0;
-  background: url(/static/images/NORTH_STARS.png) no-repeat top center;
+  background: url(/static/images/HeroBannerImage2.png) no-repeat top center;
   background-size: cover;
 }
 
 .h-jumbotron .container img {
   width: 280px;
-  height: 1000px;
+  height: 300px;
 }
 
 .h-row {
